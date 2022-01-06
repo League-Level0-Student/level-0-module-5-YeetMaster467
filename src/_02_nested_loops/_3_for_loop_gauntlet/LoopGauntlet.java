@@ -6,26 +6,73 @@ public class LoopGauntlet {
 		
 				/*	  ---- SINGLE FOR LOOPS ----    */
 
-				for(int a=0; a<101; a++) {
-					System.out.println(a);
+				for(int i=0; i<101; i++) {
+					System.out.println(i);
 				}
 			
-				for(int b=100; b>-1; b--) {
-					System.out.println(b);
+				for(int i=100; i>-1; i--) {
+					System.out.println(i);
 				}
 			
-				for(int c=0; c<101; c++) {
-					if(c%2 == 0) {
-						System.out.println(c);
+				for(int i=0; i<101; i++) {
+					if(i%2 == 0) {
+						System.out.println(i);
 					}
 				}
 				
-				for(int d=0; d<101; d++) {
-					if(d%2 == 1) {
-						System.out.println(d);
+				for(int i=0; i<101; i++) {
+					if(i%2 == 1) {
+						System.out.println(i);
 					}
 				}
 				
+				for(int i=1; i<501; i++) {
+					if(i%2 == 0) {
+						System.out.println(i + " is even");
+					}else {
+						System.out.println(i + " is odd");
+					}
+				}
+				
+				for(int i=7; i<778; i+=7) {
+					System.out.println(i);
+				}
+				
+				int year = 2010;
+				
+				for(int i=0; i<12; i++) {
+					System.out.println("In " + year + ", I was " + i + " years old.");
+					year++;
+				}
+				
+				/*    ---- NESTED FOR LOOPS ----    */
+				
+				for(int i=0; i<3; i++) {
+					for(int j=0; j<3; j++) {
+						System.out.println(i + " " + j);
+					}
+				}
+				
+				for(int i=0; i<3; i++) { 
+						for(int j=1; j<4; j++) {
+							System.out.print((j + 3 * i)+ " ");
+					}
+					System.out.println();
+				}
+				
+				for(int i=0; i<10; i++) {
+					for(int j=1; j<11; j++) {
+						System.out.print((j + 10 * i)+ " ");
+					}
+					System.out.println();
+				}
+				
+				for(int i=0; i<7; i++) {
+					for(int j=0; j<i; j++) {
+						System.out.print("* ");
+					}
+					System.out.println();
+				}
 				
 		
 	}
