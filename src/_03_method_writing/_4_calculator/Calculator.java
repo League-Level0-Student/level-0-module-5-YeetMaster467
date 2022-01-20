@@ -21,11 +21,28 @@ public class Calculator {
 	// 1) Make 4 static methods (add, subtract, multiply, divide)
 	//		They should each take 2 numbers as parameters
 	//		and return the answer.
-	 
+	static int add(int x, int y) {
+		return x + y;
+	}
+	
+	static int subtract(int x, int y) {
+		return x - y;
+	}
+	
+	static int multiply(int x, int y) {
+		return x * y;
+	}
+	
+	static int divide(int x, int y) {
+		return x / y;
+	}
 	
 	// 2) Make a static method called " result" that takes a number
 	//		as a parameter and returns the number in a string
 	//		EX: "Your answer is " + number;
 
+	// static String result(int x) {
+		
+	// }
 	
 }
