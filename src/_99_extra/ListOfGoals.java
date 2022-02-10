@@ -8,10 +8,10 @@ public class ListOfGoals {
 	
 	public static void main(String[] args) {
 		//1. Call the appropriate method to make your list of goals
-		
+		createListOfGoals();
 		//2. Call the appropriate method to get your list of goals, 
 		//   so you can use a pop-up to display them
-
+		JOptionPane.showMessageDialog(null, getListOfGoals());
 		//3. Call the appropriate method to get the number of goals you entered,
 		//   and using a pop-up display the number of goals
 		
